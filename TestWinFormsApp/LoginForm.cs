@@ -23,7 +23,7 @@ namespace TestWinFormsApp
         {
             // Hide this form, and ask the main form to
             // open our calendar form for us
-            this.Hide();
+            this.Close();
             mainForm.OpenForm("Calendar");
         }
 
